@@ -1,0 +1,174 @@
+/* navigation styles */
+body {
+    background-color: #31322E;
+}
+.inline-block {
+    display: inline; /* not working? */
+    color: white;
+    font-family: open sans;
+
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: center;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.nav {
+    width: 50%;
+    margin-left:auto;
+}
+
+/* testing */
+.navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+   
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.heroImg {
+    height: 600px;
+    padding: 25%;
+    color: #e9d8da;
+    font-size: 50px;
+    font-family: pattaya;
+    text-align: center;
+    text-size-adjust: 500px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 12px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+footer {
+    background-color: #373738;
+    color: white;
+
+    ul {
+        display: inline-block;
+        vertical-align: top;
+    }
+    padding: 25%;
+
+}
+/*module18 */
+
+.body {
+    background-color: #322E2E;
+}
+.parentContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E9D8DA;
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px; 
+    width: auto;  
+}
+ 
+
+.mySkills {
+    color: white;
+    background-color: #322E2E;
+    font-size: 75px;
+}
+
+.myDesigns {
+    color: white;
+    background-color: #322E2E;
+    font-size: 75px;
+}
+
+
+.resume {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 100px;
+}
+
+.row {
+    
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center; 
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.column {
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center; 
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600){
+    .parentContainer {
+        flex-direction: column; 
+    }
+}
